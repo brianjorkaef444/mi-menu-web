@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pizza Margherita",
+    "descripcion": "Pizza clásica italiana con tomate, mozzarella y albahaca.",
+    "precio": 120,
+    "imagen": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+    "videoId": "Nw02F1GEQYo"
+  },
+  {
+    "id": 2,
+    "nombre": "Hamburguesa Clásica",
+    "descripcion": "Hamburguesa con carne 100% res, queso cheddar y vegetales.",
+    "precio": 90,
+    "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg",
+    "videoId": "RV9HSvC9j0o"
+  },
+  {
+    "id": 3,
+    "nombre": "Ensalada César",
+    "descripcion": "Ensalada con pollo, aderezo César, lechuga romana y croutones.",
+    "precio": 70,
+    "imagen": "https://ariztia.com/wp-content/uploads/2023/11/ensalada-cesar-de-pollo.jpg",
+    "videoId": "LhrapnF8Phk"
+  },
+
+ {
+
+    "id": 4,
+    "nombre": "Tacos al Pastor",
+    "descripcion": "Tacos con carne de cerdo marinada y piña.",
+    "precio": 50,
+    "imagen": "https://theeburgerdude.com/wp-content/uploads/2024/11/Al-Pastor-01-1024x1024.jpg",
+    "videoId": "MWo42SO1aOM"
+  },
+  {
+    "id": 5,
+    "nombre": "Sushi Variado",
+    "descripcion": "Rollos de sushi con pescado fresco y vegetales.",
+    "precio": 150,
+    "imagen": "https://www.divinacocina.es/wp-content/uploads/2011/11/sushi-variado-bandeja.jpg",
+    "videoId": "3_nDgGcwCCA"
+  },
+  {
+    "id": 6,
+    "nombre": "Pasta Alfredo",
+    "descripcion": "Pasta con salsa cremosa Alfredo y pollo.",
+    "precio": 110,
+    "imagen": "https://cecotec.es/recetas/wp-content/uploads/2024/03/OllaGM_Pasta_Alfredo_con_pollo_RRSS.jpg",
+    "videoId": "ln9a6FMhJfg"
+  },
+  {
+    "id": 7,
+    "nombre": "Enchiladas Verdes",
+    "descripcion": "Enchiladas rellenas de pollo con salsa verde.",
+    "precio": 80,
+    "imagen": "https://i.blogs.es/23068c/enchiladas-verdes-rellenas-de-queso-1-/1366_2000.jpg",
+    "videoId": "SiKY5Im2FGo"
+  },
+  {
+    "id": 8,
+    "nombre": "Pollo a la Parrilla",
+    "descripcion": "Pollo marinado en chiles y asado a la parrilla.",
+    "precio": 100,
+    "imagen": "https://carboneat.com/img/recetario/1477956336_PolloParrilla.jpg",
+    "videoId": "7tUyizxQwKM"
+  },
+  {
+    "id": 9,
+    "nombre": "Camarones al Ajillo",
+    "descripcion": "Camarones cocinados con ajo y chile.",
+    "precio": 130,
+    "imagen": "https://cdn.colombia.com/gastronomia/2013/02/12/camarones-al-ajillo-2954-1.jpg",
+    "videoId": "MDolgPDIWcw"
+  },
+  {
+    "id": 10,
+    "nombre": "Helado de Vainilla",
+    "descripcion": "Postre frío con sabor a vainilla natural.",
+    "precio": 40,
+    "imagen": "https://www.eis-perfecto.de/wp-content/uploads/2024/04/Vanille-Eis-mit-Ananas-Swirl-848x477.jpg",
+    "videoId": "KSRkQUtBqYY"
+  },
+  {
+    "id": 11,
+    "nombre": "Brownie de Chocolate",
+    "descripcion": "Delicioso brownie con trozos de chocolate.",
+    "precio": 55,
+    "imagen": "https://images.aws.nestle.recipes/resized/2024_10_23T08_38_28_badun_images.badun.es_ac5fa47c04dd_brownie_de_chocolate_negro_1290_742.jpg",
+    "videoId": "gnsKGFsZvxg"
+  },
+  {
+    "id": 12,
+    "nombre": "Smoothie de Fresa",
+    "descripcion": "Bebida natural con fresas frescas y yogurt.",
+    "precio": 60,
+    "imagen": "https://www.maricruzavalos.com/wp-content/uploads/2023/04/licuado-de-fresa-recipe.jpg",
+    "videoId": "nvU6H8SiKJc"
+  }
+]
