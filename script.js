@@ -7,6 +7,7 @@ const main = document.querySelector('main');
 const pedidoContainer = document.getElementById('productos-pedido');
 const subtotalElem = document.querySelector('.subtotal');
 const totalPagarElem = document.querySelector('.total-pagar');
+const mensajeDiv = document.getElementById('mensaje'); // div para mostrar mensajes
 
 // Función para cargar menú desde JSON (o puedes reemplazarlo con un array local)
 function cargarMenu() {
@@ -48,6 +49,19 @@ function mostrarMenu() {
   });
 }
 
+// Función para mostrar mensaje emergente
+function mostrarMensaje(texto) {
+  mensajeDiv.textContent = texto;
+  mensajeDiv.classList.remove('mensaje-oculto');
+  mensajeDiv.classList.add('mensaje-visible');
+
+  // Después de 3 segundos, ocultar el mensaje
+  setTimeout(() => {
+    mensajeDiv.classList.remove('mensaje-visible');
+    mensajeDiv.classList.add('mensaje-oculto');
+  }, 3000);
+}
+
 // Función para agregar producto al carrito
 function agregarAlCarrito(id) {
   if (carrito[id]) {
@@ -56,7 +70,7 @@ function agregarAlCarrito(id) {
     const producto = menuData.find(item => item.id === id);
     carrito[id] = { ...producto, cantidad: 1 };
   }
-  alert(`Agregaste ${carrito[id].nombre} al carrito.`);
+  mostrarMensaje(`Agregaste ${carrito[id].nombre} al carrito.`);
   mostrarCarrito();
 }
 

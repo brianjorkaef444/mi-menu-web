@@ -212,3 +212,27 @@ footer {
   color: white;
   margin-top: 2rem;
 }
+#mensaje {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  background-color: #8a2be2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+  z-index: 1000;
+}
+
+.mensaje-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mensaje-oculto {
+  opacity: 0;
+  pointer-events: none;
+}
